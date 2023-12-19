@@ -1,0 +1,28 @@
+table{
+    width: 950px;
+    height: 500px;
+    margin: 50px;
+    /* border-spacing: 10px 20px; */
+}
+#mainHeading{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-family: serif;
+    border-bottom: solid transparent;
+}
+.MenuBar{
+    background-color: rgb(95, 23, 73);
+    color: white;
+}
+.MenuBar>th>a{
+    text-decoration: none;
+    color: white;
+}
+.MenuHeading{
+    background-color: rgb(228, 152, 188);
+    font-size: x-large;
+    font-family: serif;
+    margin-top: inherit;
+}
