@@ -1,28 +1,56 @@
-table{
-    width: 950px;
-    height: 500px;
-    margin: 50px;
-    /* border-spacing: 10px 20px; */
+.tbl1{
+    margin: 30px 75px;
 }
 #mainHeading{
-    background-color: navy;
-    color: white;
-    padding: 10px;
-    font-size: x-large;
-    font-family: serif;
-    border-bottom: solid transparent;
+    width: 1000px;
+    height: 200px;
+    background-color:cadetblue;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
 }
-.MenuBar{
-    background-color: rgb(95, 23, 73);
-    color: white;
-}
-.MenuBar>th>a{
+.MenuBar th{
+    background-color: rgb(72, 106, 107);
+    padding: 15px 40px;
+    font-size: large;
     text-decoration: none;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.MenuBar th:hover{
+    background-color: cadetblue;
+}
+.tbl2{
+    text-align: center;
+    width: 1000px;
+    height: 65px;
+    margin: 30px 75px;
+    
+}
+.tbl3{
+    margin: 0px 350px;
+    font-size: small;
+}
+.tbl5{
+    width: 1000px;
+    margin: 50px 75px;
 }
 .MenuHeading{
-    background-color: rgb(228, 152, 188);
-    font-size: x-large;
-    font-family: serif;
-    margin-top: inherit;
+    background-color: rgb(112, 220, 223);
+    height: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
 }
+/* .fruitMenuBar th{
+    background-color: rgb(72, 106, 107);
+    padding: 15px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+} */
